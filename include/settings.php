@@ -23,25 +23,4 @@ $DBPass   = '';
 $DBName   = 'gabinet';
 
 
-//if (isset($_SESSION['username'])){
-//    $username = $_SESSION['username'];
-//    # Connect with DB
-//    try {
-//        $pdo = new PDO("$DBEngine:host=$DBServer;dbname=$DBName", $DBUser, $DBPass);
-//        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//    } 
-//    catch (PDOException $e) {
-//        $returnContentToHTML .= "Connection to database failed.". $e->getMessage();
-//    die();
-//    }
-//
-//    
-//}
-
-
-
 $SALT = "enigma";
-
-?>
-
-
