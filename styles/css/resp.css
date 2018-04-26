@@ -1,0 +1,19 @@
+.slicknav_menu {
+    display: none;
+}
+@media screen and (max-width: 992px){
+    
+    
+    .slicknav_menu {
+        display: inline-block;
+        position: fixed;
+        z-index: 200;
+        right: 0px;
+    }
+    .slicknav_btn {
+        margin: 27px 20px 0 0;
+    }
+    #menu {
+        display: none;
+    }
+}

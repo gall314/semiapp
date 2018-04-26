@@ -1,0 +1,353 @@
+/*
+ *
+ * STYLE dla gabinet dentystyczny
+ *
+ */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: #fff;
+    height: 90px;
+    line-height: 90px;
+    box-shadow: 0px 5px 10px rgba(0, 90, 112, 0.36);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+header a.logo {
+    float: left;
+}
+.logo img{
+    height: 40px;
+    margin-left: 20px;
+}
+header nav {
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+/*    margin-right: 30px;*/
+}
+header nav ul li{
+    
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    
+    
+}
+
+header nav ul li:hover{
+    /*background: radial-gradient(circle, white 20px ,#e8e8e2 10px ,white 30px);*/
+    background-color: #fafafa;
+    border-left: solid 1px #D2DB0E;
+    border-right: solid 1px #D2DB0E;
+
+    
+}
+header nav ul li a {
+    height: 100%;
+    display: block;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    color: #95a0a3;
+}
+header nav ul li a:hover, header nav ul li a:focus {
+    color: #003057;
+    text-decoration: none;
+}
+.hdl {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+#myCarousel .item{
+    
+    height: 500px;
+    text-align: center;
+    
+}
+
+#myCarousel .item p {
+    padding: 5px 0px 10px 0px;
+}
+#myCarousel .item a {
+    background-color: #D2DB0E;
+    color: #4a840f;
+    padding: 8px 20px 8px 20px;
+    
+    border-radius: 4px;
+}
+#myCarousel .item a:hover {
+    background-color: #61c70a;
+    text-decoration: none;
+    color: #fff;
+}
+.carwide{
+    padding: 0px;
+}
+
+.photo1 {
+    background-image: url('../img/dent.jpg');
+    background-size: cover;
+}
+.photo2 {
+    background-image: url('../img/gab.jpg');
+    background-size: cover;
+}
+.photo3 {
+    background-image: url('../img/doc.jpg');
+    background-size: cover;
+}
+
+
+.fstphoto {
+    background: url(../img/doc.jpg);
+    background-size: cover;
+    
+}
+.sndphoto {
+    background: url(../img/dent.jpg);
+    background-size: cover;
+}
+.trdphoto {
+    background: url(../img/gab.jpg);
+    background-size: cover;
+}
+.font-highlight {
+    font-family: 'Playfair Display', serif;
+}
+.font-regular {
+    font-family: 'Open Sans', sans-serif;
+}
+.correct {
+    height: 90px;
+}
+footer {
+    height: 200px;
+    background-color: white;
+}
+footer i{
+    padding: 30px 20px;
+}
+
+
+textarea {
+   resize: none;
+}
+.polaroid {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+.polaroid img{
+  border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+div.caption {
+  text-align: center;
+  padding: 10px 20px;
+}
+.btn {
+    color: #4a840f;
+    background-color: #D2DB0E;
+    width: 100%;
+}
+.btn:hover {
+    text-decoration: none;
+    background-color: #61c70a;
+    color: #fff;   
+
+}
+
+.high {
+    height: 100vh;
+}
+#cal *{box-sizing:border-box;}
+#cal ul {list-style-type: none;}
+
+
+.month {
+    padding: 20px 25px;
+    width: 100%;
+    background: #12b2a6;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    
+    
+}
+
+.month .next {
+    float: right;
+    
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #12b2a6;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+table th{
+    background-color: #12b2a6;
+}
+table tr{
+    background-color: #fff;
+}
+.bg-wh {
+    background-color: #fff;
+}
+.bg-ib {
+    background-color: #D4EAE4;
+}
+.my-link {
+    position: absolute;
+    top: 90px;
+}
+.mull {
+    
+}
+.mull li, .mull li a {
+    
+    line-height: 60px;
+}
+.mull li li:hover {
+    border-style: none;
+}
+.suba li, .suba a{
+    width: 100%;
+}
+.next:hover, .prev:hover, .wiw:hover{
+    cursor: pointer;
+}
+#dz li a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    color: #2c4676;
+    box-sizing: border-box;
+}
+#dz li a:hover {
+    background-color: #12b2a6;
+    color: #fff;
+}
+.visi th{
+    background-color: #D2DB0E;
+    color: #4a840f;
+}
+.narr {
+    width: 200px;
+    display: inline-flex;
+    
+}
+.nar {
+    width: auto;
+    display: inline-flex;
+}
+.loow {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.timet {
+    border-radius: 8px;
+    
+}
+.filler {
+    display: block;
+    height: 10vh;
+
+}
+.frame {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+b {
+    color: #12b2a6;
+    
+}
+.w10 {
+    width: 100%;
+}
+.spam {
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    display: inline-block;
+    float: right;
+}
+.me {
+    cursor: pointer;
+    padding-left: 9px;
+}
+.redd {
+    background-color: #a2115f;
+    color: #a2115f;
+    content: "wybierz pacjenta";
+}
+.redd:hover {
+    color: #61c70a;
+}
+.redd:before {
+    content: "wybierz";
+    color: #fff;
+}

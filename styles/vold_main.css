@@ -1,0 +1,105 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid pink;
+}
+
+body {
+    color: #104a6f;
+    background-color: #d2dee6;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+.no-li {
+    list-style-type: none;
+}
+input {
+    background-color:#e9eaeb;
+    border: 2px solid #6b9fc1;
+}
+input:hover {
+    background-color: #fff;
+    border-color: #104a6f;
+}
+ol {
+    margin-left: 30px;
+}
+
+/*{
+    background-color: #0c7b37;
+    color: #c2ffc0;
+    
+    padding: 5px;
+    border: 0px;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 1s;
+    transition-property: background-color;
+    transition-duration: 1s;
+}*/
+
+h2 {
+    font-size: 50px;   
+}
+
+
+.navLink {
+    color: #104a6f ;
+}
+.logoText {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #ffe200;
+    text-shadow: 1px 1px  #104a6f, 2px 0px  #2d2db5;
+}
+
+
+.bg-navy {
+    background-color: #104a6f;
+}
+.bg-white {
+    background-color: #fff;
+}
+
+.del {
+    color: #a02424;
+}
+.del:before {
+    content: "\f057";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.del:hover {
+    color: #f02d62;
+    text-decoration: none;
+}
+.edit {
+    color: #104a6f;
+}
+.edit:before {
+    content: "\f05a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.edit:hover {
+    color: #148bd6;
+    text-decoration: none;
+}
+/*.menuItem {
+    color: #104a6f ;
+    
+    border-radius: 0px;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 1s;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+.menuItem:hover {
+    background-color: #9fcdeb;
+}*/
+.bg-white {
+    background-color: white;
+}
+.text-white {
+    color: white;
+}

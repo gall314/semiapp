@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #003057;
+    background-color: #D4EAE4;
+}
+a:hover {
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+h1, h2, h3, h4 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #003057;
+}
+h1, h4 {
+    font-size: 36px;
+    font-weight: regular;
+}
+h2
+{
+    font-size: 30px;
+}
+
+h3
+{
+    font-size: 24px;
+}
+ol , ul {
+    margin-bottom: 0px;
+}
+
+.primary{
+    color: #D4EAE4;
+}
+
+.primary-bg{
+    background-color: #D4EAE4;
+}
+.default-bg {
+    background-color: white;
+}
+.secondary-dark-blue
+{
+    color: #003057;
+}
+
+.secondary-dark-blue-bg
+{
+    background-color: #003057;
+}
+
+.secondary-sky-blue
+{
+    color: #007FA3;
+}
+
+.secondary-sky-blue-bg
+{
+    background-color: #007FA3;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+a, a:visited, a:active, a:focus{
+    text-decoration: none;
+}
+a:focus {
+    outline: 0;
+    
+}
+
+    /* 
+    pblue
+    #007FA3
+    
+    midnight
+    #003057
+    
+    limegreen
+    #D2DB0E
+    
+    iceblue
+    #D4EAE4
+    
+    graphite
+    #505759
+    
+    inkblue
+    #005A70
+    */
